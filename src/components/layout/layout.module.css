@@ -1,0 +1,7 @@
+.container {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: var(--background);
+    color: var(--text-primary);
+    font-weight: 600;
+    min-height: 100vh;
+}

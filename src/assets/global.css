@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: hsl(0, 0%, 98%);
+    --background-secondary: hsl(0, 0%, 100%);
+    --text-primary: hsl(200, 15%, 8%);
+    --text-secondary: hsl(0, 0%, 52%);
+}
+
+[data-theme='dark'] {
+    --background: hsl(207, 26%, 17%);
+    --background-secondary: hsl(209, 23%, 22%);
+    --text-primary: hsl(0, 0%, 100%);
+    --text-secondary: hsl(0, 0%, 100%);
+}
